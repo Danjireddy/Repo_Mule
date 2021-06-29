@@ -1,0 +1,33 @@
+#%RAML 1.0
+title: Third_api
+/product:
+  get:
+    description: this is fetching the data
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "id":1,
+                "name":"anji"
+              }
+  post:
+    description: this is inserting the data
+    body:
+      application/json:
+        example:
+          {
+            "id":123
+          }
+    responses:
+            201:
+                    body:
+                            application/json:
+                                    example:
+                                            {
+                                              "result":"data sucessfully inserted"
+                                            }      
+                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                               
