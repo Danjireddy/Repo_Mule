@@ -1,0 +1,39 @@
+#%RAML 1.0
+title: Fifth_api
+/product:
+  get:
+    description: this is the feteching and retriving the data
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "id":1
+              }
+  post:
+    description: this is sucessfully insert the data
+    body:
+      application/json:
+        example:
+          {
+            "id":123
+            "name":"reddy"
+          }
+    responses:
+      201:
+        body:
+          application/json:
+            example:
+              {
+                "data sucessfully insert the data"
+              }
+
+        
+                               
+              
+              
+                          
+              
+                              
+                                                          
